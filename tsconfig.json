@@ -1,0 +1,18 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./frontend" },
+    { "path": "./backend" }
+  ],
+  "compilerOptions": {
+    "types": ["vite/client", "vue", "vue-router"],
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"],
+  "exclude": ["node_modules"]
+}
