@@ -7,8 +7,8 @@ pg.types.setTypeParser(1114, (stringValue) => {
 
 const sequelize = new Sequelize(
   process.env.DB_NAME as string,
-  "postgres", 
-  "postgres", 
+  process.env.DB_USER as string,
+  process.env.DB_PASSWORD as string, 
   {
     host: process.env.DB_HOST,
     port: parseInt(process.env.DB_PORT || "5432", 10), 

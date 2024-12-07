@@ -13,8 +13,8 @@ PostgreSQL (version 12 ou supérieure)
 1. Cloner le dépôt
 bash
 Copier le code
-git clone https://github.com/LucieChev/employment-tracker.git
-cd employment-tracker
+git clone https://github.com/LucieChev/EmploymentTracker.git
+cd EmploymentTracker/
 
 2. Configurer les variables d'environnement
 Backend
